@@ -4,6 +4,11 @@
   <link rel="stylesheet" href="mainPage.css">
 </head>
 <body>
+  <select onchange="window.location.href=this.options[this.selectedIndex].value">
+    <option VALUE="http://ru.stackoverflow.com/">Ссылка №1</option>
+    <option VALUE="http://ru.stackoverflow.com/">Ссылка №2</option>
+    <option VALUE="http://ru.stackoverflow.com/">Ссылка №3</option>
+</select>
   <select name="type" id="select_type">
     <option value="none" hidden="">Выберите тип</option>
     <option value="1">Главное меню</option>
