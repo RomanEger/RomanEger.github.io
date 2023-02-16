@@ -6,13 +6,16 @@
   font-size: large;
 }
 
+.navigation{
+  margin: 1% 1% 0 1%;
+}
+
 .select
 {
   background-color: rgb(245, 245, 245); /*rgb(173, 216, 230)*/
-  margin: 1% 1% 0 1%;
   border-radius: 5px;
-  height: 40px;
-  width: 170px;
+  height: 40%;
+  width: 12%;
 }
 
 .firstButton
