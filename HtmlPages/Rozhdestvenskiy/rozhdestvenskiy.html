@@ -6,52 +6,19 @@
 </head>
 <body class="body">
   <div id="wrapper">
-  <div class="navigation">
-    <button onclick="window.location.href='https://romaneger.github.io/HtmlPages/mainPage.html';" class="firstButton">
-      Главное меню
-    </button>
-
-    <button onclick="window.location.href='/HtmlPages/Belov/belov.html';" class="navButton">
-      Белов
-    </button>
-    
-    <button onclick="window.location.href='/HtmlPages/Belozerov/belozerov.html';" class="navButton">
-      Белозеров
-    </button>
-    
-    <button onclick="window.location.href='/HtmlPages/Bisyarina/bisyarina.html';" class="navButton">
-      Бисярина
-    </button>
-    
-    <button onclick="window.location.href='/HtmlPages/Buhgoltz/buhgoltz.html';" class="navButton">
-      Бухгольц
-    </button>
-    
-    <button onclick="window.location.href='/HtmlPages/Cicin/cicin.html';" class="navButton">
-      Цицин
-    </button>
-    
-    <button onclick="window.location.href='/HtmlPages/karbyshev/karbyshev.html';" class="navButton">
-      Карбышев
-    </button>
-    
-    <button onclick="window.location.href='/HtmlPages/Martynov/martynov.html';" class="navButton">
-      Мартынов
-    </button>
-    
-    <button onclick="window.location.href='/HtmlPages/Rozhdestvenskiy/rozhdestvenskiy.html';" class="navButton">
-      Рождественский
-    </button>
-    
-    <button onclick="window.location.href='/HtmlPages/Valikhanov/valikhanov.html';" class="navButton">
-      Валиханов
-    </button>
-    
-    <button onclick="window.location.href='/HtmlPages/Vrubel/vrubel.html';" class="navButton">
-      Врубель
-    </button>
-    
-  </div>
+    <select onchange="window.location.href=this.options[this.selectedIndex].value">
+      <option VALUE="https://romaneger.github.io/HtmlPages/mainPage.html">Главная страница</option>
+      <option VALUE="https://romaneger.github.io/HtmlPages/Belov/belov.html">Белов</option>
+      <option VALUE="https://romaneger.github.io/HtmlPages/Belozerov/belozerov.html">Белозеров</option>
+      <option VALUE="https://romaneger.github.io/HtmlPages/Bisyarina/bisyarina.html">Бисярина</option>
+      <option VALUE="https://romaneger.github.io/HtmlPages/Buhgoltz/buhgoltz.html">Бухгольц</option>
+      <option VALUE="https://romaneger.github.io/HtmlPages/Cicin/cicin.html">Цицин</option>
+      <option VALUE="https://romaneger.github.io/HtmlPages/Karbyshev/karbyshev.html">Карбышев</option>
+      <option VALUE="https://romaneger.github.io/HtmlPages/Martynov/martynov.html">Мартынов</option>
+      <option VALUE="https://romaneger.github.io/HtmlPages/Rozhdestvenskiy/rozhdestvenskiy.html">Рождественский</option>
+      <option VALUE="https://romaneger.github.io/HtmlPages/Valikhanov/valikhanov.html">Валиханов</option>
+      <option VALUE="https://romaneger.github.io/HtmlPages/Vrubel/vrubel.html">Врубель</option>
+  </select>
     <img src="/Resourses/rozhd.png" alt="Роберт Рождественский" class="rightPh">
   <div class="info">
     
