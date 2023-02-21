@@ -1,4 +1,3 @@
-HEAD
 .body
 {
   margin: 0;
@@ -7,8 +6,7 @@ HEAD
   font-size: large;
 }
 
-.navigation
-{
+.navigation{
   margin: 1% 1% 0 1%;
 }
 
@@ -30,8 +28,7 @@ HEAD
   width: 7%;
 }
 
-.navButton
-{
+.navButton{
   background-color:rgb(225, 255, 255);
   border: 1px solid black;
   border-radius: 10px;
@@ -50,16 +47,14 @@ HEAD
   margin: 1% 20% 1% 1%;
 }
 
-.title
-{
+.title{
   text-align: center;
   font-size: 20px;
 }
 
-.Ph
-{
+.Ph{
   height: auto;
-  width: auto;
+  width: 45%;
   margin: 1%;
   padding: 2px;
   border: 2px solid black;
@@ -69,7 +64,7 @@ HEAD
 {
   height: 27%;
   width: 23%;
-  margin-right: 1%;
+  margin: 1%;
   border: 1px solid black;
 }
 
@@ -83,7 +78,7 @@ HEAD
   border: 2px solid black;
 }
 
-.image
+.poem
 {
   margin: 0 auto;
   width: 70%;
@@ -91,19 +86,12 @@ HEAD
   text-align:center;
 }
 
-.images
-{
-  padding: 5px;
-  border: 1px solid black;
-}
 
-#wrapper
-{
+#wrapper{
   display: table;
 }
 
-#footer
-{
+#footer{
   border-top: 1px solid black;
   background-color:rgb(225, 255, 255);
   text-align: center;
@@ -111,3 +99,4 @@ HEAD
   width: 100%;
   height: 5%;
   display: table-row;
+}
