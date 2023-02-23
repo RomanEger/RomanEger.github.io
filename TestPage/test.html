@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+  <title>Тест</title>
+  <link rel="stylesheet" href="test.css">
+</head>
+<body>
+  <div class="testZone">
+    <b id="Question">Вопрос 1</b>
+    <br>
+    <button class="button" id="first" onclick="Answer1(id)">Ответ 1</button><br>
+    <button class="button" id="second" onclick="Answer1(id)">Ответ 2</button><br>
+    <button class="button" id="third" onclick="Answer1(id)">Ответ 3</button><br>
+    <button class="button" id="fourth" onclick="Answer1(id)">Ответ 4</button><br>
+    <hr/>
+
+    <b id="Question">Вопрос 2</b>
+    <br>
+    <button class="button" id="first" onclick="Answer2(id)">Ответ 1</button><br>
+    <button class="button" id="second" onclick="Answer2(id)">Ответ 2</button><br>
+    <button class="button" id="third" onclick="Answer2(id)">Ответ 3</button><br>
+    <button class="button" id="fourth" onclick="Answer2(id)">Ответ 4</button><br>
+    <hr/>
+
+    <b id="Question">Вопрос 3</b>
+    <br>
+    <button class="button" id="first" onclick="Answer3(id)">Ответ 1</button><br>
+    <button class="button" id="second" onclick="Answer3(id)">Ответ 2</button><br>
+    <button class="button" id="third" onclick="Answer3(id)">Ответ 3</button><br>
+    <button class="button" id="fourth" onclick="Answer3(id)">Ответ 4</button><br>
+    <hr/>
+
+    <button class="buttonResult" id="result" onclick="GetResult()">Получить результат</button>
+    <br>
+    <b id="getResult"></b>
+  </div>
+<script>
+
+    let iteration1 = 0;
+    let iteration2 = 0;
+    let iteration3 = 0;
+    let result = 0;
+
+
+    function Main()
+    {
+      document.getElementById("startBtn").style.visibility = 'hidden';
+    }
+
+    function Answer1(id)
+    {
+      if(id == "third" && iteration1 < 1)
+      {
+        result++;
+      }
+      console.log(result);
+      iteration1++;
+    }
+
+    function Answer2(id)
+    {
+      if(id == "second" && iteration2 < 1)
+      {
+        result++;
+      }
+      console.log(result);
+      iteration2++;
+    }
+
+    function Answer3(id)
+    {
+      if(id == "first" && iteration3 < 1)
+      {
+        result++;
+      }
+      console.log(result);
+      iteration3++;
+    }
+
+    function GetResult()
+    {
+      document.getElementById("getResult").innerHTML = result;
+    }
+</script>
+</body>
+</html>
