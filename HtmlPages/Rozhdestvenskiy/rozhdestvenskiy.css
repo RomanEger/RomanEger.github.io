@@ -54,7 +54,7 @@
 
 .Ph{
   height: auto;
-  width: auto;
+  width: 45%;
   margin: 1%;
   padding: 2px;
   border: 2px solid black;
@@ -86,10 +86,6 @@
   text-align:center;
 }
 
-.images{
-  padding: 5px;
-  border: 1px solid black;
-}
 
 #wrapper{
   display: table;
