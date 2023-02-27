@@ -6,7 +6,23 @@
   font-size: large;
 }
 
- .navigation{
+.divBody
+{
+  overflow: hidden;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.info
+{
+  padding: 1% 1%;
+  background-color:white;
+  border: 1px solid lightgray;
+  text-indent: 1%;
+  margin: 1% 20% 1% 20%;
+}
+
+.navigation{
   margin: 1% 1% 0 1%;
 }
 
@@ -18,18 +34,18 @@
   width: 170px;
 }
 
-.right
+.Ph
 {
-  margin-right: 1%;
+  width: 18%;
+  margin: 1%;
+  padding: 3px;
+  border: 2px solid black;
 }
 
-.left
+.fPh
 {
-  margin-left:px;
-}
-
-.text
-{
-  margin-left:900px;
-  
+  width: 18%;
+  margin: 1%;
+  padding: 3px;
+  border: 2px solid black;
 }
