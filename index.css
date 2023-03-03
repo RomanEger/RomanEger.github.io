@@ -13,6 +13,16 @@
   border: 1px solid lightgray;
   text-indent: 1%;
   margin: 1% 18% 1% 18%;
+  font-size:22px;
+}
+
+.shortstory
+{
+  padding: 1% 1%;
+  background-color:white;
+  border: 1px solid lightgray;
+  margin: 1% 20% 1% 20%;
+  font-size:26px;
 }
 
 .navigation{
