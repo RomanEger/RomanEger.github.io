@@ -6,24 +6,17 @@
   font-size: large;
 }
 
-.divBody
-{
-  overflow: hidden;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
 .info
 {
   padding: 1% 1%;
   background-color:white;
   border: 1px solid lightgray;
   text-indent: 1%;
-  margin: 1% 20% 1% 20%;
+  margin: 1% 18% 1% 18%;
 }
 
 .navigation{
-  margin: 1% 1% 0 1%;
+  margin: 1%;
 }
 
 .select
@@ -34,11 +27,31 @@
   width: 170px;
 }
 
+.lPh
+{
+  background-color:white;
+  padding: 0;
+  width: 15%;
+  float: left;
+  border-right: 2px solid lightgray;
+  border-top: 2px solid lightgray;
+}
+
+.rPh
+{
+
+  background-color:white;
+  padding: 0;
+  width: 15%;
+  float: right;
+  border-left: 2px solid lightgray;
+  border-top: 2px solid lightgray;
+}
+
 .Ph
 {
-  width: 18%;
-  margin: 1%;
-  padding: 3px;
-  border: 2px solid black;
+  padding: 0;
+  margin: 3%;
+  width: 80%;
 }
 
